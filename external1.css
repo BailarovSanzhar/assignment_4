@@ -1,0 +1,98 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #222f3e;
+
+}
+
+#text {
+color: white;
+text-align: center;
+text-transform: uppercase;
+font-size: 55px;
+margin-top: 10px;
+}
+
+
+.btn {
+	
+	top: 50%;
+	left: 50%;
+	margin-left: 700px;
+	margin-top: 100px;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	background: #fff;
+	border: 2px solid;
+	outline: none;
+	font-size: 30px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+
+
+
+
+#div1{
+background-color:white;
+border: 2px solid;
+width:120px;
+padding:15px;
+margin-left: 622px;
+margin-top: 50px;
+text-transform: uppercase;
+ font-size: 30px;
+  text-align: center;
+}
+
+
+#div2 {
+	background-color:white;
+	border: 2px solid;
+	width:120px;
+	padding:15px;
+	margin-left: 622px;
+	margin-top: 60px;
+	text-transform: uppercase;
+	 font-size: 30px;
+	  text-align: center;
+}
+
+
+#music {
+	margin-left: 550px;
+	margin-top: 70px;
+}
+
+
+
+#sidebar {
+    width:350px;
+    height:450px;
+    float:center;
+    margin-top: -470px;
+    margin-left: 50px;
+    background-color: #222f3e;
+    text-align: center;
+   
+    
+    
+}
+
+#content {
+    width:350px;
+    height:450px;
+    float:center;
+    margin-top: -483px;
+    margin-left: 910px;
+    background-color: #222f3e;
+    text-align: center;
+    
+   
+    
+
+
+}
+

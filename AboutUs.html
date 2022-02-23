@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> О нас </title>
+		<meta charset = "utf-8"/>
+		<link rel="icon" type="image/x-icon" href="C:/Users/Санжар/Desktop/WEB/images/favicon.ico">
+		<link href="external1.css" rel="stylesheet">
+</head>
+<body>
+
+<div id = "text">	
+</div>
+	<script type="text/javascript">
+		var text = "about us";
+		var i=0; 
+		function typing() {
+			 if(i-1<text.length) {
+			 	document.getElementById("text").innerHTML += text.charAt(i-1);
+			 	 i++; 
+			 	setTimeout(typing, 50); 
+			 }
+		}
+		typing();
+	</script>
+
+
+		<button class = "btn" id = "btn">Диско шар</button>
+	<script type="text/javascript">
+		var color = ["blue", "red", "yellow", "orange", "green", "pink", "brown"];
+		var i = 0;
+		document.querySelector("button").addEventListener("click",
+		 function() { 
+		 	i = i < color.length ? ++i : 0; 
+		 	document.querySelector("body").style.background = color [i]
+		}
+			) 
+	</script>
+
+
+		 
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" id = "div1">
+Лол</div>
+
+<script>
+function mOver(obj) {
+  obj.innerHTML = "кек"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "лол"
+}
+</script>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)" id = "div2" >
+Рофл</div>
+
+<script>
+function mUp(obj) {
+  obj.style.backgroundColor = "white";
+  obj.innerHTML="Кринж";
+}
+
+function mDown(obj) {
+  obj.innerHTML = "Норм";
+}
+
+</script>
+
+
+<audio controls id="music">
+<source src="music.mp4" type="audio/mpeg">
+
+</audio>
+
+
+<script>
+var myMusic= document.getElementById("music");
+function play() {
+myMusic.play();
+}
+
+function pause() {
+myMusic.pause();
+}
+</script>
+
+
+<div id="sidebar"> 
+    <p>
+<font size = "5"><font color=white>
+<div> Байларов Санжар </div><div> CS-2103S</div>
+<div>
+	<img src="bs.jpg" width="350" height="400">
+</div>
+</font>
+</p>
+
+<div id="content">
+	<p><font size = "5"><font color=white>
+<div> Алмаз Қадыр </div>
+<div> CS-2103S</div>	
+<div>
+	<img src="ak.jpg" width="350" height="400">
+</div></font></p>
+	</body>
+</html>
